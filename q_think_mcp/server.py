@@ -13,7 +13,7 @@ mcp = FastMCP("Q-Think MCP Server")
 
 @mcp.tool()
 def think(thought: str):
-    """Use the tool to think about something. It will not obtain new information or change the database, but just append the thought to the log. Use it when complex reasoning or some cache memory is needed.
+    """Use the tool to think about something. It will not obtain new information or change the database, but just append the thought to the log. Use it when complex reasoning or some cache memory is needed. This tool does not return any value.
 
     Args:
         thought: A thought to think about.
