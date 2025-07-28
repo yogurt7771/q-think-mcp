@@ -19,6 +19,7 @@ def think(thought: str):
         thought: A thought to think about.
     """
     print(f"Received thought: {thought}")
+    return "Recorded"
 
 
 def main():
